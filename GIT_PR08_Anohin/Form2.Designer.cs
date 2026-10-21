@@ -37,7 +37,9 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -121,11 +123,22 @@
             this.dataGridView1.Size = new System.Drawing.Size(755, 150);
             this.dataGridView1.TabIndex = 8;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::GIT_PR08_Anohin.Properties.Resources.Icon;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(161, 136);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
@@ -136,8 +149,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Форма менеджера";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,5 +168,6 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
