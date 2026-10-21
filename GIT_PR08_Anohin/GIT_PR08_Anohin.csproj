@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2DE2C3B8-FA0D-4455-BA84-B941DD34BCE1}</ProjectGuid>
+    <ProjectGuid>{A508D6AF-862E-4EC7-B249-A546FCF645F4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>GIT_PR08_Anohin</RootNamespace>
     <AssemblyName>GIT_PR08_Anohin</AssemblyName>
